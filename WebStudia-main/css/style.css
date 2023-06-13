@@ -1,0 +1,241 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: flex;
+    position: relative;
+}
+
+.nav li{
+    margin: 0 20px;
+    top: -px6;
+    left: 303px;
+}
+
+header {
+
+    width: px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+
+header ul{
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.nav {
+    position: absolute;
+    width: 290px;
+    height: 16px;
+    top: 32px;
+    display:flex;
+    top: 32px;
+    margin-left: 213px;
+}
+
+.nav a {
+    text-decoration: none;
+    left: 100px;
+}
+
+nav a:hover {
+    color: #2196F3;
+}
+
+
+.visually-hidden {
+position: absolute !important;
+clip: rect(1px 1px 1px 1px);
+clip: rect(1px, 1px, 1px, 1px);
+padding: 0 !important;
+border: 0 !important;
+height: 1px !important;
+width: 1px !important;
+overflow: hidden;
+}
+
+.section-title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+    
+color: #212121;
+}
+
+.logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+   
+letter-spacing: 0.03em;
+    
+color: #2196F3;
+text-decoration: none;
+margin-left: 100px;
+top: 1000px;
+}
+
+
+/* Герой */
+.hero{
+    background-color:#2F303A;
+    margin: -8px;
+    width: px;
+    height: 650px;
+    left: 0px;
+    top: 80px;
+    
+    background: #2F303A;
+    border: 1px solid;
+}
+
+.hero-title{
+font-weight: 900;
+
+font-size: 44px;
+line-height: 1.36;   
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+    
+color: #FFFFFF;
+top: 100;
+margin-top: 100px;
+}
+
+.hero-btn{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+width: 200px;
+height: 50px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hero-btn:hover
+.hero-btn:focus{
+background-color: #2195f3b9;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+/* Наші переваги */
+.advantages{}
+
+.advantages-title{
+font-style: normal;
+font-weight: 700;
+
+font-size: 14px;
+line-height: 1.14;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    
+color: #212121;
+}
+
+.advantages-text{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/* Чим ми займаємося  */
+
+/* Наша команда */
+
+.our-teem{
+    background-color: #F5F4FA;
+}
+
+.our-teem-title{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.our-teem-text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/* Футер */
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: #FFFFFF;
+};
+
+
+.info a{
+    text-align: center;
+}
+
+.info-email{
+    margin-left: 1200px;
+}
+
+.info li{
+    margin-left: 60px;
+    left: 850px;
+    top: -25px;
+}
+
+.info {
+
+}
+
+
