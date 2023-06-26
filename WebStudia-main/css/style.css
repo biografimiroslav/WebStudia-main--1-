@@ -125,15 +125,9 @@ display: flex;
 
 /* Герой */
 .hero{
-    background-color:#2F303A;
-    margin: -8px;
-    width: px;
-    height: 650px;
-    left: 0px;
-    top: 80px;
-    
-    background: #2F303A;
-    border: 1px solid;
+    background-color:#2F303A;    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title{
@@ -145,29 +139,28 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
-    
+margin: 0 auto 30px;
+max-width: 696px;
 color: #FFFFFF;
-top: 100;
-margin-top: 100px;
 }
 
 .hero-btn{
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-cursor: pointer;
-padding: 10px 24px;
-margin-left: auto;
-margin-right: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;    
+    cursor: pointer;
+    padding: 10px 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-btn:hover
@@ -178,7 +171,14 @@ border-radius: 4px;
 }
 
 /* Наші переваги */
-.advantages{}
+.advantages{
+    padding-top: 94px;
+}
+
+.advantagesst-list {
+    display: flex;
+    padding-top: px;
+}
 
 .advantages-title{
 font-style: normal;
@@ -189,8 +189,10 @@ line-height: 1.14;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+
     
 color: #212121;
+margin: px;
 }
 
 .advantages-text{
@@ -203,6 +205,7 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+
 
 /* Чим ми займаємося  */
 
@@ -236,6 +239,13 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+.work-images {
+    display: flex;
+    margin: ;
+}
+.our-items {
+    display: flex;
+}
 /* Футер */
 .footer{
     background-color: #2F303A;
